@@ -27,7 +27,37 @@ var q4a3 = document.getElementById("q4a3");
 var q4a4 = document.getElementById("q4a4");
 
 //#TODO: Add Event Listeners to your answer choice variables.
-q1a1.addEventListener("click", result1);
+q1a1.addEventListener("click", hufflepuff);
+q1a2.addEventListener("click", ravenclaw);
+q1a3.addEventListener("click", gryffindor);
+q1a4.addEventListener("click", slytherin);
+  q2a1.addEventListener("click", ravenclaw);
+  q2a2.addEventListener("click", slytherin);
+  q2a3.addEventListener("click", hufflepuff);
+  q2a4.addEventListener("click", gryffindor);
+  q3a1.addEventListener("click", hufflepuff);
+  q3a2.addEventListener("click", slytherin);
+  q3a3.addEventListener("click", gryffindor);
+  q3a4.addEventListener("click", ravenclaw);
+
 
 //#TODO: Define quiz functions here
-function result1() {}
+function gryffindor() {
+  gryffindorScore += 1;
+  questionCount += 1;
+}
+
+function ravenclaw() {
+  ravenclawScore += 1;
+  questionCount += 1;
+}
+
+function slytherin() {
+  slytherinScore += 1;
+  questionCount += 1;
+}
+
+function hufflepuff() {
+  hufflepuffScore += 1;
+  questionCount += 1;
+}
