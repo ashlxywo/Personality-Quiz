@@ -88,6 +88,6 @@ function updateResult() {
   } else if (hufflepuffScore >= 2) {
     result.innerHTML = "✨Hufflepuff!(≧∇≦)/✨";
   } else {
-    result.innerHTML = "Hmm.. The Sorting Hat is confused. Try again later.";
+    result.innerHTML = "Hmm.. The Sorting Hat is confused. Try again later.⌒°(❛ᴗ❛)°⌒";
   }
 }

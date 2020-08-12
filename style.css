@@ -1,9 +1,14 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  margin: 2em;
-  background-color: #bf80ff;
+  font-family: Cursive;
+  margin: 0px;
+  padding: 3px;
+  background-color: #8080ff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 h1 {
