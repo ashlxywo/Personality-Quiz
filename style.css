@@ -6,22 +6,29 @@ body {
 }
 
 h1 {
+  display: flex;
+  justify-content: center;
   font-family: cursive;
-  font-style: none;
   color: #00000;
 }
 
 h2 {
   margin-top: 2em;
-   font-family: cursive;
+  font-family: cursive;
   color: #00000;
+  display: flex;
+  justify-content: center;
 }
 
 .question {
   display: flex;
   margin-top: 2em;
+  display: flex;
+  justify-content: center;
 }
-  
+
 .answer-choice img {
   height: 10em;
+  display: flex;
+  justify-content: center;
 }
