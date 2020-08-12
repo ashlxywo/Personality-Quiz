@@ -12,7 +12,9 @@ h1 {
 }
 
 h2 {
-  margin-top: 2em; 
+  margin-top: 2em;
+   font-family: cursive;
+  color: #00000;
 }
 
 .question {
