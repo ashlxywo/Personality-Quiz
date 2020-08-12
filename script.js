@@ -31,33 +31,63 @@ q1a1.addEventListener("click", hufflepuff);
 q1a2.addEventListener("click", ravenclaw);
 q1a3.addEventListener("click", gryffindor);
 q1a4.addEventListener("click", slytherin);
-  q2a1.addEventListener("click", ravenclaw);
-  q2a2.addEventListener("click", slytherin);
-  q2a3.addEventListener("click", hufflepuff);
-  q2a4.addEventListener("click", gryffindor);
-  q3a1.addEventListener("click", hufflepuff);
-  q3a2.addEventListener("click", slytherin);
-  q3a3.addEventListener("click", gryffindor);
-  q3a4.addEventListener("click", ravenclaw);
 
+q2a1.addEventListener("click", ravenclaw);
+q2a2.addEventListener("click", slytherin);
+q2a3.addEventListener("click", hufflepuff);
+q2a4.addEventListener("click", gryffindor);
+
+q3a1.addEventListener("click", hufflepuff);
+q3a2.addEventListener("click", slytherin);
+q3a3.addEventListener("click", gryffindor);
+q3a4.addEventListener("click", ravenclaw);
 
 //#TODO: Define quiz functions here
 function gryffindor() {
   gryffindorScore += 1;
   questionCount += 1;
-}
 
-function ravenclaw() {
-  ravenclawScore += 1;
-  questionCount += 1;
+  if (questionCount >= 3) {
+    updateResult();
+  }
 }
 
 function slytherin() {
   slytherinScore += 1;
   questionCount += 1;
+
+  if (questionCount >= 3) {
+    updateResult();
+  }
 }
 
 function hufflepuff() {
   hufflepuffScore += 1;
   questionCount += 1;
+
+  if (questionCount >= 3) {
+    updateResult();
+  }
+}
+
+function ravenclaw() {
+  ravenclawScore += 1;
+  questionCount += 1;
+
+  if (questionCount >= 3) {
+    updateResult();
+  }
+}
+function updateResult() {
+  if (gryffindorScore >= 2) {
+    result.innerHTML = "Gryffindor!";
+  } else if (slytherinScore >= 2) {
+    result.innerHTML = "Slytherin!";
+  } else if (ravenclawScore >= 2) {
+    result.innerHTML = "Ravenclaw!";
+  } else if (hufflepuffScore >= 2) {
+    result.innerHTML = "Hufflepuff!";
+  } else {
+    result.innerHTML = "Hmm.. The Sorting Hat is confused. Try again later.";
+  }
 }
