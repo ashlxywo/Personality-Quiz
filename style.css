@@ -6,8 +6,9 @@ body {
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+  font-family: cursive;
+  font-style: none;
+  color: #00000;
 }
 
 h2 {
