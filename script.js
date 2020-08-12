@@ -80,13 +80,13 @@ function ravenclaw() {
 }
 function updateResult() {
   if (gryffindorScore >= 2) {
-    result.innerHTML = "Gryffindor!";
+    result.innerHTML = "✨Gryffindor!(・∀・)✨";
   } else if (slytherinScore >= 2) {
-    result.innerHTML = "Slytherin!";
+    result.innerHTML = "✨Slytherin!(＾▽＾)✨";
   } else if (ravenclawScore >= 2) {
-    result.innerHTML = "Ravenclaw!";
+    result.innerHTML = "✨Ravenclaw!ヽ(^o^)丿✨";
   } else if (hufflepuffScore >= 2) {
-    result.innerHTML = "Hufflepuff!";
+    result.innerHTML = "✨Hufflepuff!(≧∇≦)/✨";
   } else {
     result.innerHTML = "Hmm.. The Sorting Hat is confused. Try again later.";
   }
