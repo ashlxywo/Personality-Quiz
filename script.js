@@ -6,6 +6,7 @@ var tanjiroScore = 0;
 var sabitoScore = 0;
 var zenitsuScore = 0;
 var nezukoScore = 0;
+var result = document.getElementById("result");
 
 //#TODO: Use the DOM to create variables for the first quiz question.
 var q1a1 = document.getElementById("q1a1");
@@ -88,7 +89,8 @@ function nezuko() {
 
 //# Update Code once you add more questions
 
-var result = document.getElementById("result");
+//it looks good to me 
+//it isn't working tho :/
 
 function updateResult() {
   if (tanjiroScore >= 3) {
