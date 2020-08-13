@@ -37,3 +37,9 @@ h2 {
   display: flex;
   justify-content: center;
 }
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column
+}
