@@ -4,7 +4,7 @@ body {
   font-family: Cursive;
   margin: 0px;
   padding: 3px;
-  background-image: url("https://cdn.glitch.com/91f1e9a0-8495-4c4c-a57e-0c11905fd2ab%2Fddb8zwg-32215e09-3660-4313-81a3-451e773e13f0.png?v=1597343646599");
+  background-image: url("https://cdn.glitch.com/91f1e9a0-8495-4c4c-a57e-0c11905fd2ab%2Fbackground.png?v=1597340701573");
   background-size:contain;
   display: flex;
   flex-direction: column;
@@ -44,7 +44,7 @@ display: flex;
   font-size: 16px;
   padding: 10px;
   border-radius: 15px;
-  background: #99e6e6;
+  background: #ffb3ff;
   border: 2px solid white;
   font-family: cursive;
 }
@@ -53,5 +53,5 @@ button:hover {
 }
 img {
   border-radius: 25px;
-  border: 5px solid 
+  border: 5px solid #ccffff;
 }
