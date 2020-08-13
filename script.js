@@ -1,7 +1,6 @@
 //Global Variables
 //This is where you will define the variables you will be using in your project.
 //#TODO: Create four variables to track each possible quiz outcome
-//Rename result score after the Harry Potter houses
 var questionCount = 0;
 var gryffindorScore = 0;
 var slytherinScore = 0;
