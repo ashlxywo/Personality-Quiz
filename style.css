@@ -45,7 +45,8 @@ display: flex;
   padding: 10px;
   border-radius: 15px;
   background: #99e6e6;
-  Border: 2px solid white
+  border: 2px solid white;
+  font-family: cursive;
 }
 button:hover {
   color: white;

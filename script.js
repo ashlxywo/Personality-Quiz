@@ -88,9 +88,8 @@ function nezuko() {
 
 //# Update Code once you add more questions
 
-//define result = document.getElementById("result"); 
-//Where do I put it?  right here is fine on line 92
- 
+var result = document.getElementById("result");
+
 function updateResult() {
   if (tanjiroScore >= 3) {
     result.innerHTML = "✨ Tanjiro Kamado!(・∀・) ✨";
