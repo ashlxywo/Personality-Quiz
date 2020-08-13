@@ -30,6 +30,7 @@ h2 {
 .question {
   display: flex;
   margin-top: 2em;
+  justify-content: center;
 }
 .answer-choice img {
   height: 10em;
