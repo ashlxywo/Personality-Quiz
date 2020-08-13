@@ -78,6 +78,7 @@ function ravenclaw() {
     updateResult();
   }
 }
+//# Update Code once you add more questions
 function updateResult() {
   if (gryffindorScore >= 2) {
     result.innerHTML = "✨Gryffindor!(・∀・)✨";
