@@ -44,6 +44,11 @@ var q7a2 = document.getElementById("q7a2");
 var q7a3 = document.getElementById("q7a3");
 var q7a4 = document.getElementById("q7a4");
 
+var q8a1 = document.getElementById("q8a1");
+var q8a2 = document.getElementById("q8a2");
+var q8a3 = document.getElementById("q8a3");
+var q8a4 = document.getElementById("q8a4");
+
 //#TODO: Add Event Listeners to your answer choice variables.
 q1a1.addEventListener("click", tanjiro);
 q1a2.addEventListener("click", nezuko);
@@ -80,12 +85,17 @@ q7a2.addEventListener("click", sabito);
 q7a3.addEventListener("click", nezuko);
 q7a4.addEventListener("click", zenitsu);
 
+q8a1.addEventListener("click", sabito);
+q8a2.addEventListener("click", zenitsu);
+q8a3.addEventListener("click", tanjiro);
+q8a4.addEventListener("click", nezuko);
+
 //#Define quiz functions here
 function tanjiro() {
   tanjiroScore += 1;
   questionCount += 1;
 
-  if (questionCount >= 7) {
+  if (questionCount >= 8) {
     updateResult();
   }
 }
@@ -94,7 +104,7 @@ function sabito() {
   sabitoScore += 1;
   questionCount += 1;
 
-  if (questionCount >= 7) {
+  if (questionCount >= 8) {
     updateResult();
   }
 }
@@ -103,7 +113,7 @@ function zenitsu() {
   zenitsuScore += 1;
   questionCount += 1;
 
-  if (questionCount >= 7) {
+  if (questionCount >= 8) {
     updateResult();
   }
 }
@@ -112,7 +122,7 @@ function nezuko() {
   nezukoScore += 1;
   questionCount += 1;
 
-  if (questionCount >= 7) {
+  if (questionCount >= 8) {
     updateResult();
   }
 }
@@ -120,13 +130,13 @@ function nezuko() {
 //# Update Code once you add more questions
 
 function updateResult() {
-  if (tanjiroScore >= 5) {
+  if (tanjiroScore >= 56) {
     result.innerHTML = "✨ Tanjiro Kamado!(・∀・) ✨";
-  } else if (sabitoScore >= 5) {
+  } else if (sabitoScore >= 6) {
     result.innerHTML = "✨ Sabito!♡＾▽＾♡✨";
-  } else if (nezukoScore >= 5) {
+  } else if (nezukoScore >= 6) {
     result.innerHTML = "✨ Nezuko Kamado!ヽ(^o^)丿 ✨";
-  } else if (zenitsuScore >= 5) {
+  } else if (zenitsuScore >= 6) {
     result.innerHTML = "✨ Zenitsu!(≧∇≦)/ ✨";
   } else {
     result.innerHTML =
