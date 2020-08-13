@@ -42,7 +42,7 @@ q3a2.addEventListener("click", slytherin);
 q3a3.addEventListener("click", gryffindor);
 q3a4.addEventListener("click", ravenclaw);
 
-//#TODO: Define quiz functions here
+//#Define quiz functions here
 function gryffindor() {
   gryffindorScore += 1;
   questionCount += 1;
@@ -88,6 +88,7 @@ function updateResult() {
   } else if (hufflepuffScore >= 2) {
     result.innerHTML = "✨Hufflepuff!(≧∇≦)/✨";
   } else {
-    result.innerHTML = "Hmm.. The Sorting Hat is confused. Try again later.⌒°(❛ᴗ❛)°⌒";
+    result.innerHTML =
+      "Hmm.. The Sorting Hat is confused. Try again later.⌒°(❛ᴗ❛)°⌒";
   }
 }
