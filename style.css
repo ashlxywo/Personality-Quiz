@@ -3,12 +3,12 @@ body {
   margin: 0px;
   padding: 3px;
   background-image: url("https://cdn.glitch.com/91f1e9a0-8495-4c4c-a57e-0c11905fd2ab%2Fbackground.png?v=1597340701573");
-  background-size:contain;
+  background-size: contain;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-} 
+}
 
 h1 {
   display: flex;
@@ -37,7 +37,7 @@ h2 {
   justify-content: center;
 }
 button {
-display: flex;
+  display: flex;
   justify-content: center;
   font-size: 16px;
   padding: 10px;
@@ -52,5 +52,5 @@ button:hover {
 }
 img {
   border-radius: 25px;
-  border: 5px solid #66a3ff;
+  border: 5px solid #ccffff;
 }

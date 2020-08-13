@@ -34,6 +34,10 @@ var q5a2 = document.getElementById("q5a2");
 var q5a3 = document.getElementById("q5a3");
 var q5a4 = document.getElementById("q5a4");
 
+var q6a1 = document.getElementById("q6a1");
+var q6a2 = document.getElementById("q6a2");
+var q6a3 = document.getElementById("q6a3");
+var q6a4 = document.getElementById("q6a4");
 
 //#TODO: Add Event Listeners to your answer choice variables.
 q1a1.addEventListener("click", tanjiro);
@@ -61,13 +65,17 @@ q5a2.addEventListener("click", zenitsu);
 q5a3.addEventListener("click", sabito);
 q5a4.addEventListener("click", tanjiro);
 
+q6a1.addEventListener("click", nezuko);
+q6a2.addEventListener("click", zenitsu);
+q6a3.addEventListener("click", tanjiro);
+q6a4.addEventListener("click", sabito);
 
 //#Define quiz functions here
 function tanjiro() {
   tanjiroScore += 1;
   questionCount += 1;
 
-  if (questionCount >= 5) {
+  if (questionCount >= 6) {
     updateResult();
   }
 }
@@ -76,7 +84,7 @@ function sabito() {
   sabitoScore += 1;
   questionCount += 1;
 
-  if (questionCount >= 5) {
+  if (questionCount >= 6) {
     updateResult();
   }
 }
@@ -85,7 +93,7 @@ function zenitsu() {
   zenitsuScore += 1;
   questionCount += 1;
 
-  if (questionCount >= 5) {
+  if (questionCount >= 6) {
     updateResult();
   }
 }
@@ -94,7 +102,7 @@ function nezuko() {
   nezukoScore += 1;
   questionCount += 1;
 
-  if (questionCount >= 5) {
+  if (questionCount >= 6) {
     updateResult();
   }
 }
@@ -102,16 +110,16 @@ function nezuko() {
 //# Update Code once you add more questions
 
 function updateResult() {
-  if (tanjiroScore >= 3) {
+  if (tanjiroScore >= 4) {
     result.innerHTML = "✨ Tanjiro Kamado!(・∀・) ✨";
-  } else if (sabitoScore >= 3) {
-    result.innerHTML = "✨ Sabito!(＾▽＾) ✨";
-  } else if (nezukoScore >= 3) {
+  } else if (sabitoScore >= 4) {
+    result.innerHTML = "✨ Sabito!♡＾▽＾♡✨";
+  } else if (nezukoScore >= 4) {
     result.innerHTML = "✨ Nezuko Kamado!ヽ(^o^)丿 ✨";
-  } else if (zenitsuScore >= 3) {
+  } else if (zenitsuScore >= 4) {
     result.innerHTML = "✨ Zenitsu!(≧∇≦)/ ✨";
   } else {
     result.innerHTML =
-      "Final Selection seems to be delayed... Try again later! ⌒°(❛ᴗ❛)°⌒";
+      "Final Selection seems to be delayed... Try again later! ᕕ( ᐛ )ᕗ";
   }
 }
