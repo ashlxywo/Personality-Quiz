@@ -5,11 +5,12 @@ body {
   margin: 0px;
   padding: 3px;
   background-image: url("https://cdn.glitch.com/91f1e9a0-8495-4c4c-a57e-0c11905fd2ab%2Fddb8zwg-32215e09-3660-4313-81a3-451e773e13f0.png?v=1597343646599");
+  background-size:cover;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-}
+} 
 
 h1 {
   display: flex;
@@ -43,16 +44,13 @@ display: flex;
   font-size: 16px;
   padding: 10px;
   border-radius: 15px;
-  background: white;
-  Border: 2px solid #99e6e6
+  background: #99e6e6;
+  Border: 2px solid white
 }
-button
+button:hover {
+  color: white;
+}
 img {
   border-radius: 25px;
   border: 5px solid 
-}
-.fighting {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: row;
 }
