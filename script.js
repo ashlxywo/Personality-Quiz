@@ -89,16 +89,13 @@ function nezuko() {
 
 //# Update Code once you add more questions
 
-//it looks good to me 
-//it isn't working tho :/
-
 function updateResult() {
   if (tanjiroScore >= 3) {
     result.innerHTML = "✨ Tanjiro Kamado!(・∀・) ✨";
   } else if (sabitoScore >= 3) {
-    result.innerHTML = "✨Nezuko Kamado!(＾▽＾) ✨";
+    result.innerHTML = "✨ Sabito!(＾▽＾) ✨";
   } else if (nezukoScore >= 3) {
-    result.innerHTML = "✨ Sabito!ヽ(^o^)丿 ✨";
+    result.innerHTML = "✨ Nezuko Kamado!ヽ(^o^)丿 ✨";
   } else if (zenitsuScore >= 3) {
     result.innerHTML = "✨ Zenitsu!(≧∇≦)/ ✨";
   } else {
