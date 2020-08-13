@@ -29,6 +29,7 @@ var q4a2 = document.getElementById("q4a2");
 var q4a3 = document.getElementById("q4a3");
 var q4a4 = document.getElementById("q4a4");
 
+
 //#TODO: Add Event Listeners to your answer choice variables.
 q1a1.addEventListener("click", tanjiro);
 q1a2.addEventListener("click", nezuko);
