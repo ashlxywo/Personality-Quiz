@@ -56,8 +56,8 @@ function tanjiro() {
   }
 }
 
-function nezuko() {
-  nezukoScore += 1;
+function sabito() {
+  sabitoScore += 1;
   questionCount += 1;
 
   if (questionCount >= 4) {
@@ -74,14 +74,15 @@ function zenitsu() {
   }
 }
 
-function sabito() {
-  sabitoScore += 1;
+function nezuko() {
+  nezukoScore += 1;
   questionCount += 1;
 
   if (questionCount >= 4) {
     updateResult();
   }
 }
+
 //# Update Code once you add more questions
 function updateResult() {
   if (tanjiroScore >= 3) {
@@ -94,6 +95,6 @@ function updateResult() {
     result.innerHTML = "✨ Zenitsu!(≧∇≦)/ ✨";
   } else {
     result.innerHTML =
-      "Hmm.. The Sorting Hat is confused. Try again later.⌒°(❛ᴗ❛)°⌒";
+      "Final Selection seems to be delayed... Try again later! ⌒°(❛ᴗ❛)°⌒";
   }
 }
