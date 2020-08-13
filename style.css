@@ -4,7 +4,7 @@ body {
   font-family: Cursive;
   margin: 0px;
   padding: 3px;
-  background-color: #8080ff;
+  background-image: url("https://cdn.glitch.com/91f1e9a0-8495-4c4c-a57e-0c11905fd2ab%2Fddb8zwg-32215e09-3660-4313-81a3-451e773e13f0.png?v=1597343646599");
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -39,7 +39,7 @@ h2 {
 }
 button {
 display: flex;
-  margin-left: 20px;
+
   justify-content: center;
 }
 img {
@@ -48,6 +48,6 @@ img {
 }
 .fighting {
   display: flex;
-  justify-content: wrap;
-  justify
+  flex-wrap: wrap;
+  justify-content: column;
 }
