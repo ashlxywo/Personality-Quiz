@@ -39,15 +39,20 @@ h2 {
 }
 button {
 display: flex;
-
   justify-content: center;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 15px;
+  background: white;
+  Border: 2px solid #99e6e6
 }
+button
 img {
   border-radius: 25px;
   border: 5px solid 
 }
 .fighting {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: column;
+  flex-wrap: nowrap;
+  justify-content: row;
 }
