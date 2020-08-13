@@ -29,6 +29,11 @@ var q4a2 = document.getElementById("q4a2");
 var q4a3 = document.getElementById("q4a3");
 var q4a4 = document.getElementById("q4a4");
 
+var q5a1 = document.getElementById("q5a1");
+var q5a2 = document.getElementById("q5a2");
+var q5a3 = document.getElementById("q5a3");
+var q5a4 = document.getElementById("q5a4");
+
 
 //#TODO: Add Event Listeners to your answer choice variables.
 q1a1.addEventListener("click", tanjiro);
@@ -51,12 +56,18 @@ q4a2.addEventListener("click", nezuko);
 q4a3.addEventListener("click", zenitsu);
 q4a4.addEventListener("click", sabito);
 
+q5a1.addEventListener("click", nezuko);
+q5a2.addEventListener("click", zenitsu);
+q5a3.addEventListener("click", sabito);
+q5a4.addEventListener("click", tanjiro);
+
+
 //#Define quiz functions here
 function tanjiro() {
   tanjiroScore += 1;
   questionCount += 1;
 
-  if (questionCount >= 4) {
+  if (questionCount >= 5) {
     updateResult();
   }
 }
@@ -65,7 +76,7 @@ function sabito() {
   sabitoScore += 1;
   questionCount += 1;
 
-  if (questionCount >= 4) {
+  if (questionCount >= 5) {
     updateResult();
   }
 }
@@ -74,7 +85,7 @@ function zenitsu() {
   zenitsuScore += 1;
   questionCount += 1;
 
-  if (questionCount >= 4) {
+  if (questionCount >= 5) {
     updateResult();
   }
 }
@@ -83,7 +94,7 @@ function nezuko() {
   nezukoScore += 1;
   questionCount += 1;
 
-  if (questionCount >= 4) {
+  if (questionCount >= 5) {
     updateResult();
   }
 }
