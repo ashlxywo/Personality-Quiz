@@ -130,7 +130,7 @@ function nezuko() {
 //# Update Code once you add more questions
 
 function updateResult() {
-  if (tanjiroScore >= 56) {
+  if (tanjiroScore >= 6) {
     result.innerHTML = "✨ Tanjiro Kamado!(・∀・) ✨";
   } else if (sabitoScore >= 6) {
     result.innerHTML = "✨ Sabito!♡＾▽＾♡✨";
