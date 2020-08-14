@@ -140,16 +140,16 @@ function nezuko() {
 //# Update Code once you add more questions
 
 function updateResult() {
-  if (tanjiroScore >= 5) {
+  if (tanjiroScore >= 4) {
     result.innerHTML = "✨ Tanjiro Kamado!(・∀・) ✨";
-  } else if (sabitoScore >= 5) {
+  } else if (sabitoScore >= 4) {
     result.innerHTML = "✨ Sabito!♡＾▽＾♡✨";
-  } else if (nezukoScore >= 5) {
+  } else if (nezukoScore >= 4) {
     result.innerHTML = "✨ Nezuko Kamado!ヽ(^o^)丿 ✨";
-  } else if (zenitsuScore >= 5) {
+  } else if (zenitsuScore >= 4) {
     result.innerHTML = "✨ Zenitsu!(≧∇≦)/ ✨";
   } else {
     result.innerHTML =
-      "Final Selection seems to be delayed... Try again! ᕕ( ᐛ )ᕗ";
+      "You're a bit of everyone!! ᕕ( ᐛ )ᕗ";
   }
 }
